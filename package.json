@@ -1,6 +1,6 @@
 {
   "name": "@smaperture/layout",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
@@ -14,10 +14,6 @@
     "build": "bob build",
     "prepare": "bob build",
     "test": "jest"
-  },
-  "peerDependencies": {
-    "react": "17.0.1",
-    "react-native": "0.64.3"
   },
   "devDependencies": {
     "@testing-library/jest-native": "^4.0.4",
