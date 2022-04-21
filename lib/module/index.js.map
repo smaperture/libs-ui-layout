@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.ts"],"names":["Platform","EM","useMobileNav","OS"],"mappings":"AAAA,SAASA,QAAT,QAAyB,cAAzB;AAEA,OAAO,MAAMC,EAAE,GAAG,EAAX;AAEP,OAAO,MAAMC,YAAY,GAAGF,QAAQ,CAACG,EAAT,KAAgB,KAArC","sourcesContent":["import { Platform } from 'react-native';\n\nexport const EM = 16;\n\nexport const useMobileNav = Platform.OS !== 'web';\n"]}
